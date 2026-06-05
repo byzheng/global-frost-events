@@ -1,0 +1,61 @@
+---
+title: "Global Frost Events Benchmark Dataset"
+---
+
+
+
+This repository contains a curated collection of documented frost events across the globe.  
+The primary purpose of this dataset is to support the **development, evaluation, and validation of frost detection algorithms**, particularly those based on climate reanalysis data (e.g. ERA5) and crop models.
+
+This dataset is **not intended to be exhaustive**. Instead, it provides a set of **high-confidence, representative frost events** across different regions, climates, and cropping systems.
+
+## Motivation
+
+Frost remains a major constraint to agricultural production worldwide.  
+However, there is currently **no standardised global dataset of frost events** available for:
+
+- validating frost detection methods
+- comparing modelling approaches
+- benchmarking climate-based risk metrics
+
+This repository aims to fill that gap by providing a **transparent, reproducible benchmark dataset**.
+
+
+## Contribution
+
+Contributions are welcome.
+
+You can:
+- add new events
+- improve metadata
+- refine spatial/temporal definitions
+
+Please ensure that all new entries:
+- are supported by a credible source
+- follow the existing schema
+
+
+## Citation
+
+If you use this dataset, please cite:
+
+> *Global Frost Events Benchmark Dataset* (GitHub repository)  
+> (DOI to be added upon formal release)
+
+
+
+## License
+
+This project is licensed under the MIT License.
+
+
+## Status
+
+🚧 Under active development as part of ongoing research on global frost risk and detection methods.
+
+This dataset is currently used to support:
+- algorithm development
+- model validation
+- methodological research
+
+It may be formally released as a standalone dataset paper in the future.
