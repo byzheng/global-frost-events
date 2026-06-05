@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Global Frost Events Benchmark Dataset",
+    "section": "",
+    "text": "This repository contains a curated collection of documented frost events across the globe.\nThe primary purpose of this dataset is to support the development, evaluation, and validation of frost detection algorithms, particularly those based on climate reanalysis data (e.g. ERA5) and crop models.\nThis dataset is not intended to be exhaustive. Instead, it provides a set of high-confidence, representative frost events across different regions, climates, and cropping systems."
+  },
+  {
+    "objectID": "index.html#motivation",
+    "href": "index.html#motivation",
+    "title": "Global Frost Events Benchmark Dataset",
+    "section": "Motivation",
+    "text": "Motivation\nFrost remains a major constraint to agricultural production worldwide.\nHowever, there is currently no standardised global dataset of frost events available for:\n\nvalidating frost detection methods\ncomparing modelling approaches\nbenchmarking climate-based risk metrics\n\nThis repository aims to fill that gap by providing a transparent, reproducible benchmark dataset."
+  },
+  {
+    "objectID": "index.html#contribution",
+    "href": "index.html#contribution",
+    "title": "Global Frost Events Benchmark Dataset",
+    "section": "Contribution",
+    "text": "Contribution\nContributions are welcome.\nYou can: - add new events - improve metadata - refine spatial/temporal definitions\nPlease ensure that all new entries: - are supported by a credible source - follow the existing schema"
+  },
+  {
+    "objectID": "index.html#citation",
+    "href": "index.html#citation",
+    "title": "Global Frost Events Benchmark Dataset",
+    "section": "Citation",
+    "text": "Citation\nIf you use this dataset, please cite:\n\nGlobal Frost Events Benchmark Dataset (GitHub repository)\n(DOI to be added upon formal release)"
+  },
+  {
+    "objectID": "index.html#license",
+    "href": "index.html#license",
+    "title": "Global Frost Events Benchmark Dataset",
+    "section": "License",
+    "text": "License\nThis project is licensed under the MIT License."
+  },
+  {
+    "objectID": "index.html#status",
+    "href": "index.html#status",
+    "title": "Global Frost Events Benchmark Dataset",
+    "section": "Status",
+    "text": "Status\n🚧 Under active development as part of ongoing research on global frost risk and detection methods.\nThis dataset is currently used to support: - algorithm development - model validation - methodological research\nIt may be formally released as a standalone dataset paper in the future."
+  },
+  {
+    "objectID": "events/australia_2024_sa_spring_frost/event.html",
+    "href": "events/australia_2024_sa_spring_frost/event.html",
+    "title": "South Australia Spring Frosts (2024)",
+    "section": "",
+    "text": "Widespread frost events occurred across major grain-producing regions of South Australia during September and early October 2024. The most severe impacts were reported on the Eyre Peninsula and in the Mid North."
+  },
+  {
+    "objectID": "events/australia_2024_sa_spring_frost/event.html#overview",
+    "href": "events/australia_2024_sa_spring_frost/event.html#overview",
+    "title": "South Australia Spring Frosts (2024)",
+    "section": "",
+    "text": "Widespread frost events occurred across major grain-producing regions of South Australia during September and early October 2024. The most severe impacts were reported on the Eyre Peninsula and in the Mid North."
+  },
+  {
+    "objectID": "events/australia_2024_sa_spring_frost/event.html#meteorological-context",
+    "href": "events/australia_2024_sa_spring_frost/event.html#meteorological-context",
+    "title": "South Australia Spring Frosts (2024)",
+    "section": "Meteorological context",
+    "text": "Meteorological context\nThe frost events developed during a very dry growing season, with many regions experiencing well below average rainfall. Multiple frost events occurred over a short period, including at least five days below 0°C in mid-September, with minimum temperatures reported as low as −6.5°C.\nThe extended duration and frequency of these events contributed to significant agricultural impact."
+  },
+  {
+    "objectID": "events/australia_2024_sa_spring_frost/event.html#spatial-definition",
+    "href": "events/australia_2024_sa_spring_frost/event.html#spatial-definition",
+    "title": "South Australia Spring Frosts (2024)",
+    "section": "Spatial definition",
+    "text": "Spatial definition\nThis event is defined over major cropping regions of South Australia, particularly the Eyre Peninsula and Mid North, where the most severe impacts were reported.\nA bounding box is used to represent the affected region for analysis with gridded datasets such as ERA5."
+  },
+  {
+    "objectID": "events/australia_2024_sa_spring_frost/event.html#impact",
+    "href": "events/australia_2024_sa_spring_frost/event.html#impact",
+    "title": "South Australia Spring Frosts (2024)",
+    "section": "Impact",
+    "text": "Impact\nThe frost events affected a wide range of crops, including wheat, lentils, barley, and canola. Many crops were at flowering or early grain development stages when frost occurred, increasing sensitivity.\nReports indicate substantial yield losses, with some regions experiencing severe damage requiring crops to be cut for hay or abandoned."
+  },
+  {
+    "objectID": "events/australia_2024_sa_spring_frost/event.html#notes-and-uncertainty",
+    "href": "events/australia_2024_sa_spring_frost/event.html#notes-and-uncertainty",
+    "title": "South Australia Spring Frosts (2024)",
+    "section": "Notes and uncertainty",
+    "text": "Notes and uncertainty\nThe spatial boundary is approximate and intended for regional-scale analysis.\nLocalised frost severity likely varied depending on topography and soil type.\nThis event represents a compound stress scenario, with frost occurring alongside drought conditions."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "events/index.html",
+    "href": "events/index.html",
+    "title": "Events",
+    "section": "",
+    "text": "This page lists all curated frost events currently included in the benchmark dataset."
+  },
+  {
+    "objectID": "events/index.html#event-summary",
+    "href": "events/index.html#event-summary",
+    "title": "Events",
+    "section": "Event Summary",
+    "text": "Event Summary\n\n\n\nEvent ID\nEvent Name\nRegion\nDates\nSeason\nSeverity\nDetails\n\n\n\n\naustralia_2024_sa_spring_frost\nSouth Australia Spring Frosts\nSouth Australia (Eyre Peninsula, Mid North)\n2024-09-15 to 2024-10-05\nSpring (Southern Hemisphere)\nhigh\nView event"
+  },
+  {
+    "objectID": "events/index.html#notes",
+    "href": "events/index.html#notes",
+    "title": "Events",
+    "section": "Notes",
+    "text": "Notes\n\nSpatial boundaries are approximate and intended for regional-scale analysis.\nEvidence quality and impact reporting may vary across events."
+  }
+]
