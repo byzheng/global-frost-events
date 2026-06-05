@@ -1,0 +1,17 @@
+---
+title: Events
+---
+
+This page lists all curated frost events currently included in the benchmark dataset.
+
+## Event Summary
+
+| Event ID | Event Name | Region | Dates | Season | Severity | Details |
+|---|---|---|---|---|---|---|
+| australia_2024_sa_spring_frost | South Australia Spring Frosts | South Australia (Eyre Peninsula, Mid North) | 2024-09-15 to 2024-10-05 | Spring (Southern Hemisphere) | high | [View event](australia_2024_sa_spring_frost/event.qmd) |
+
+## Notes
+
+- Spatial boundaries are approximate and intended for regional-scale analysis.
+- Evidence quality and impact reporting may vary across events.
+
