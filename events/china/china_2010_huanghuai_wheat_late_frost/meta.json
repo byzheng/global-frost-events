@@ -1,0 +1,83 @@
+{
+    "event_id": "china_2010_huanghuai_wheat_late_frost",
+    "event_name": "Huang-Huai Winter Wheat Late Frost",
+    "country": {
+        "name": "China",
+        "iso2": "CN"
+    },
+    "region": {
+        "name": "Huang-Huai winter wheat region",
+        "type": "agro_climatic_region"
+    },
+    "observations": {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": null,
+                "properties": {
+                    "location_name": "Yuncheng",
+                    "observation_type": "crop_damage_report",
+                    "description": "During 12-15 April 2010, Yuncheng experienced severe winter wheat frost damage at the jointing-booting stage.",
+                    "source_id": ["liu2017huanghuai_frost"],
+                    "precision": "city_level",
+                    "confidence": "high",
+                    "admin_units": {
+                        "country": "China",
+                        "province": "Shanxi",
+                        "city": "Yuncheng"
+                    },
+                    "reported_min_temp_c": -1.2,
+                    "reported_relative_humidity_pct": 41.0,
+                    "crop_stage": "jointing-booting"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": null,
+                "properties": {
+                    "location_name": "Shangqiu",
+                    "observation_type": "crop_damage_report",
+                    "description": "During 12-15 April 2010, Shangqiu experienced slight winter wheat frost damage at the jointing-booting stage, with only slight injury to young spikes and little impact on yield.",
+                    "source_id": ["liu2017huanghuai_frost"],
+                    "precision": "city_level",
+                    "confidence": "high",
+                    "admin_units": {
+                        "country": "China",
+                        "province": "Henan",
+                        "city": "Shangqiu"
+                    },
+                    "reported_min_temp_c": 1.4,
+                    "reported_relative_humidity_pct": 75.1,
+                    "reported_precipitation_mm_2010_04_12_to_2010_04_14": 5.8,
+                    "crop_stage": "jointing-booting"
+                }
+            }
+        ]
+    },
+    "time": {
+        "start_date": "2010-04-12",
+        "end_date": "2010-04-15"
+    },
+    "classification": {
+        "hemisphere": "Northern",
+        "season": "Spring",
+        "event_type": "late_spring_frost"
+    },
+    "climate_characteristics": {
+        "reported_min_temp_c": null,
+        "duration_notes": "Cold-air intrusion affected parts of the Huang-Huai winter wheat region from 12-15 April 2010.",
+        "notes": "The paper attributes the event to the influence of northwesterly airflow and notes strong spatial differences in frost damage severity across the region."
+    },
+    "impact": {
+        "crop_types": [
+            "winter_wheat"
+        ],
+        "severity": "variable",
+        "description": "The event affected parts of the Huang-Huai winter wheat region. Reported impacts ranged from severe frost damage in Yuncheng to slight injury with little yield impact in Shangqiu."
+    },
+    "confidence": {
+        "level": "high",
+        "notes": "The publication explicitly confirms the 12-15 April 2010 event, the affected Huang-Huai winter wheat region, and contrasting impacts in Yuncheng and Shangqiu. Coordinates are not provided in the paper excerpt, so geometry remains unset. The paper also lists affected areas including Shanxi, Henan, northern Anhui, northern Jiangsu, and southwestern Shandong during the same cold-air event."
+    }
+}
