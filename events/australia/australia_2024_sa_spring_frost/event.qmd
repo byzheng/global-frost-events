@@ -1,0 +1,32 @@
+---
+title: "South Australia Spring Frosts (2024)"
+---
+
+## Overview
+
+Widespread frost events occurred across major grain-producing regions of South Australia during September and early October 2024. The most severe impacts were reported on the Eyre Peninsula and in the Mid North.
+
+## Meteorological context
+
+The frost events developed during a very dry growing season, with many regions experiencing well below average rainfall. Multiple frost events occurred over a short period, including at least five days below 0°C in mid-September, with minimum temperatures reported as low as −6.5°C.
+
+The extended duration and frequency of these events contributed to significant agricultural impact.
+
+## Spatial definition
+
+This event is defined over major cropping regions of South Australia, particularly the Eyre Peninsula and Mid North, where the most severe impacts were reported.
+
+A bounding box is used to represent the affected region for analysis with gridded datasets such as ERA5.
+
+## Impact
+
+The frost events affected a wide range of crops, including wheat, lentils, barley, and canola. Many crops were at flowering or early grain development stages when frost occurred, increasing sensitivity.
+
+Reports indicate substantial yield losses, with some regions experiencing severe damage requiring crops to be cut for hay or abandoned.
+
+## Notes and uncertainty
+
+The spatial boundary is approximate and intended for regional-scale analysis.  
+Localised frost severity likely varied depending on topography and soil type.
+
+This event represents a compound stress scenario, with frost occurring alongside drought conditions.

@@ -1,0 +1,56 @@
+{
+    "event_id": "australia_2024_sa_spring_frost",
+    "event_name": "South Australia Spring Frosts",
+    "region": {
+        "name": "South Australia (Eyre Peninsula, Mid North)",
+        "bounding_box": {
+            "lat_min": -36.0,
+            "lat_max": -30.5,
+            "lon_min": 133.0,
+            "lon_max": 140.5
+        }
+    },
+    "time": {
+        "start_date": "2024-09-15",
+        "end_date": "2024-10-05"
+    },
+    "classification": {
+        "hemisphere": "Southern",
+        "season": "Spring",
+        "event_type": "radiative_frost_likely"
+    },
+    "climate_characteristics": {
+        "reported_min_temp_c": -6.5,
+        "duration_notes": "Multiple frost events including at least five days below 0°C in mid-September",
+        "notes": "Frost events occurred during a dry season with low rainfall"
+    },
+    "impact": {
+        "crop_types": [
+            "wheat",
+            "lentils",
+            "barley",
+            "canola"
+        ],
+        "severity": "high",
+        "description": "Widespread crop damage with reported yield losses ranging from moderate to severe, including major reductions and crop abandonment in some regions"
+    },
+    "sources": [
+        {
+            "type": "industry_article",
+            "reference": "GRDC GroundCover 2024 frost report"
+        },
+        {
+            "type": "government_report",
+            "reference": "PIRSA Crop and Pasture Report 2024"
+        },
+        {
+            "type": "industry_analysis",
+            "reference": "Cargill Australia Frost Impact 2024"
+        }
+    ],
+    "confidence": {
+        "level": "high",
+        "notes": "Well-documented across industry reports, government summaries, and regional observations"
+    },
+    "notes": "Frost events coincided with widespread flowering due to synchronised crop development, increasing vulnerability across the region."
+}
