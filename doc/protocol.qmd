@@ -1,0 +1,69 @@
+---
+title: "Global Frost Events Dataset: Data Collection Protocol"
+---
+
+## Overview
+
+This protocol defines the principles and procedures for identifying, collecting, and structuring frost events in the Global Frost Events dataset.
+
+The dataset aims to compile a curated set of **source-confirmed frost events** impacting agriculture, designed for:
+- validation of frost detection algorithms
+- comparative analysis across regions and crops
+- reproducible research
+
+
+## Core principles
+
+### Event-based approach
+
+Each dataset entry represents a **real-world frost event**, defined by:
+- documented occurrence
+- identifiable time window
+- confirmed agricultural impact
+
+Events are not based on climatology or model output, but on **explicit evidence from sources**.
+
+
+
+### Evidence-driven geometry
+
+Spatial information must be derived from **source-confirmed observations**, not inferred regions.
+
+Each event contains:
+
+- `geometry`: a **representative reference location**
+- `observations`: a collection of **source-backed spatial features**
+
+This ensures a clear distinction between:
+- **observed locations** (evidence)
+- **derived geometries** (used for analysis)
+
+### Separation of data and interpretation
+
+- `meta.json` stores structured, source-backed data
+- `event.qmd` provides narrative interpretation and context
+
+No interpretation should be embedded in structured fields unless explicitly supported by sources.
+
+
+## Event identification workflow
+
+### Step 1: Identify candidate events
+
+Events should be identified from:
+- peer-reviewed publications
+- government or institutional reports
+- industry reports
+- credible news sources
+
+Priority is given to:
+- well-documented events
+- events with clear agricultural impacts
+- events with identifiable timing and location
+
+
+### Step 2: Confirm event validity
+
+An event is included only if:
+- frost occurrence is explicitly reported
+- agricultural impact is described or implied

@@ -1,3 +1,41 @@
 ---
-title: "Late Spring Frost in China"
+title: "Late Spring Frost Impacts in China"
 ---
+
+## Overview
+
+Late spring frost (“倒春寒” or “晚霜冻”) is a major agricultural hazard in China, occurring after crop re-growth and coinciding with highly sensitive developmental stages. These events are typically short in duration but can cause disproportionate reductions in yield and quality across both grain and horticultural systems.
+
+## Major impact regions
+
+### Loess Plateau (Shaanxi, Gansu)
+A key fruit-producing region, particularly for apple. Frost during the flowering period frequently causes severe damage to blossoms, leading to large yield losses and strong interannual variability in production.
+
+### North China Plain (Hebei, Henan, Shandong)
+China’s core winter wheat belt. Late frost events during jointing or heading stages reduce grain number and weight, with impacts occurring at regional scale due to the extensive cropping area.
+
+### Northern orchard regions (Bohai Rim)
+Includes Hebei, Shandong, and Liaoning. Fruit trees such as apple, pear, and peach are highly vulnerable during bloom, with frost leading to failure of fruit set and significant economic loss.
+
+### Northeast China (Heilongjiang, Jilin)
+An important maize and soybean region. Occasional late spring frost affects early growth stages, damaging seedlings and sometimes requiring replanting.
+
+### Southwest plateau (Yunnan, Guizhou)
+Complex terrain creates localised frost-prone environments. Crops such as potato and tobacco are affected, with strong spatial variability driven by elevation and cold-air pooling.
+
+---
+
+## Impact characteristics
+
+Late spring frost impacts in China are characterised by:
+
+- **High phenological sensitivity**: damage occurs during flowering or early reproductive stages  
+- **Short duration but high intensity**: often 1–3 nights below critical thresholds  
+- **Strong regional contrasts**: from broadacre impacts in northern plains to localised frost pockets in complex terrain  
+- **Significant economic effects**: particularly for high-value fruit systems  
+
+---
+
+## Summary
+
+Late spring frost represents a critical constraint on agricultural production in China, with impacts concentrated in the Loess Plateau fruit systems, the North China Plain wheat belt, and orchard regions in northern China, alongside additional risks in the northeast and southwest. These events provide valuable benchmark cases for evaluating frost detection and impact models across diverse agro-climatic conditions.

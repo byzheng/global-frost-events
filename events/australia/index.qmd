@@ -1,0 +1,37 @@
+---
+title: "Spring Frost Impacts in Australia"
+---
+
+## Overview
+
+Spring frost is a major constraint on agricultural production in southern Australia, typically occurring during September to October when crops are at sensitive reproductive stages. These events are often radiative in nature, associated with clear skies, low wind, and dry conditions, and can cause widespread yield losses across broadacre cropping systems.
+
+---
+
+## Major impact regions
+
+### Western Australian Wheatbelt
+A large and highly productive grain-growing region. Frost occurs frequently during flowering and grain-filling stages, leading to significant yield reductions in wheat, barley, and canola, particularly in low-lying landscape positions.
+
+### South Australia (Eyre Peninsula, Mid North)
+A key frost-prone region with recurring spring frost events. Crops are often affected during flowering, with severe cases resulting in widespread damage, haying-off, or crop abandonment.
+
+### South-eastern Australia (Victoria, southern New South Wales)
+Includes major cropping zones in Victoria and NSW. Frost events can impact large areas simultaneously, with damage varying depending on sowing time, crop development stage, and local topography.
+
+---
+
+## Impact characteristics
+
+Spring frost impacts in Australia are characterised by:
+
+- **High phenological sensitivity**: crops are most vulnerable during flowering and early grain development  
+- **Radiative frost dominance**: clear, calm nights drive strong surface cooling  
+- **Topographic effects**: cold air drainage leads to severe damage in low-lying areas  
+- **Repeated events**: multiple frost nights within a short period increase cumulative damage  
+
+---
+
+## Summary
+
+Spring frost is a widespread and recurrent hazard across southern Australia’s grain-producing regions. Its impacts are most severe when frost coincides with flowering, resulting in substantial yield and quality losses across wheat, barley, and canola systems. These conditions make Australia a key benchmark region for evaluating frost detection and impact models in broadacre agricultural systems.

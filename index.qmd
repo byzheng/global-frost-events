@@ -9,6 +9,8 @@ The primary purpose of this dataset is to support the **development, evaluation,
 
 This dataset is **not intended to be exhaustive**. Instead, it provides a set of **high-confidence, representative frost events** across different regions, climates, and cropping systems.
 
+> **See [Events](events/index.qmd) for a list of included events and their characteristics.**
+
 ## Motivation
 
 Frost remains a major constraint to agricultural production worldwide.  
@@ -26,7 +28,7 @@ This repository aims to fill that gap by providing a **transparent, reproducible
 Contributions are welcome.
 
 You can:
-- add new events
+- add new events following the [data collection protocol](doc/protocol.qmd)
 - improve metadata
 - refine spatial/temporal definitions
 
