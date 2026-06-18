@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Global Frost Events Benchmark Dataset – GFEBD</title>
+<title>Late Spring Frost Impacts in China – GFEBD</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,23 +26,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-bba5ebae505b5c03f3f0d8040a416a6b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-bba5ebae505b5c03f3f0d8040a416a6b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">GFEBD</span>
     </a>
   </div>
@@ -93,15 +93,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./events/index.html"> 
+    <a class="nav-link" href="../../events/index.html"> 
 <span class="menu-text">Events</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -120,11 +120,17 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#motivation" id="toc-motivation" class="nav-link active" data-scroll-target="#motivation">Motivation</a></li>
-  <li><a href="#contribution" id="toc-contribution" class="nav-link" data-scroll-target="#contribution">Contribution</a></li>
-  <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
-  <li><a href="#license" id="toc-license" class="nav-link" data-scroll-target="#license">License</a></li>
-  <li><a href="#status" id="toc-status" class="nav-link" data-scroll-target="#status">Status</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#major-impact-regions" id="toc-major-impact-regions" class="nav-link" data-scroll-target="#major-impact-regions">Major impact regions</a>
+  <ul class="collapse">
+  <li><a href="#loess-plateau-shaanxi-gansu" id="toc-loess-plateau-shaanxi-gansu" class="nav-link" data-scroll-target="#loess-plateau-shaanxi-gansu">Loess Plateau (Shaanxi, Gansu)</a></li>
+  <li><a href="#north-china-plain-hebei-henan-shandong" id="toc-north-china-plain-hebei-henan-shandong" class="nav-link" data-scroll-target="#north-china-plain-hebei-henan-shandong">North China Plain (Hebei, Henan, Shandong)</a></li>
+  <li><a href="#northern-orchard-regions-bohai-rim" id="toc-northern-orchard-regions-bohai-rim" class="nav-link" data-scroll-target="#northern-orchard-regions-bohai-rim">Northern orchard regions (Bohai Rim)</a></li>
+  <li><a href="#northeast-china-heilongjiang-jilin" id="toc-northeast-china-heilongjiang-jilin" class="nav-link" data-scroll-target="#northeast-china-heilongjiang-jilin">Northeast China (Heilongjiang, Jilin)</a></li>
+  <li><a href="#southwest-plateau-yunnan-guizhou" id="toc-southwest-plateau-yunnan-guizhou" class="nav-link" data-scroll-target="#southwest-plateau-yunnan-guizhou">Southwest plateau (Yunnan, Guizhou)</a></li>
+  </ul></li>
+  <li><a href="#impact-characteristics" id="toc-impact-characteristics" class="nav-link" data-scroll-target="#impact-characteristics">Impact characteristics</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
   </ul>
 </nav>
     </div>
@@ -133,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Global Frost Events Benchmark Dataset</h1>
+<h1 class="title">Late Spring Frost Impacts in China</h1>
 </div>
 
 
@@ -150,46 +156,51 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This repository contains a curated collection of documented frost events across the globe.<br>
-The primary purpose of this dataset is to support the <strong>development, evaluation, and validation of frost detection algorithms</strong>, particularly those based on climate reanalysis data (e.g.&nbsp;ERA5) and crop models.</p>
-<p>This dataset is <strong>not intended to be exhaustive</strong>. Instead, it provides a set of <strong>high-confidence, representative frost events</strong> across different regions, climates, and cropping systems.</p>
-<blockquote class="blockquote">
-<p><strong>See <a href="./events/index.html">Events</a> for a list of included events and their characteristics.</strong></p>
-</blockquote>
-<section id="motivation" class="level2">
-<h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
-<p>Frost remains a major constraint to agricultural production worldwide.<br>
-However, there is currently <strong>no standardised global dataset of frost events</strong> available for:</p>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>Late spring frost (“倒春寒” or “晚霜冻”) is a major agricultural hazard in China, occurring after crop re-growth and coinciding with highly sensitive developmental stages. These events are typically short in duration but can cause disproportionate reductions in yield and quality across both grain and horticultural systems.</p>
+</section>
+<section id="major-impact-regions" class="level2">
+<h2 class="anchored" data-anchor-id="major-impact-regions">Major impact regions</h2>
+<section id="loess-plateau-shaanxi-gansu" class="level3">
+<h3 class="anchored" data-anchor-id="loess-plateau-shaanxi-gansu">Loess Plateau (Shaanxi, Gansu)</h3>
+<p>A key fruit-producing region, particularly for apple. Frost during the flowering period frequently causes severe damage to blossoms, leading to large yield losses and strong interannual variability in production.</p>
+</section>
+<section id="north-china-plain-hebei-henan-shandong" class="level3">
+<h3 class="anchored" data-anchor-id="north-china-plain-hebei-henan-shandong">North China Plain (Hebei, Henan, Shandong)</h3>
+<p>China’s core winter wheat belt. Late frost events during jointing or heading stages reduce grain number and weight, with impacts occurring at regional scale due to the extensive cropping area.</p>
+</section>
+<section id="northern-orchard-regions-bohai-rim" class="level3">
+<h3 class="anchored" data-anchor-id="northern-orchard-regions-bohai-rim">Northern orchard regions (Bohai Rim)</h3>
+<p>Includes Hebei, Shandong, and Liaoning. Fruit trees such as apple, pear, and peach are highly vulnerable during bloom, with frost leading to failure of fruit set and significant economic loss.</p>
+</section>
+<section id="northeast-china-heilongjiang-jilin" class="level3">
+<h3 class="anchored" data-anchor-id="northeast-china-heilongjiang-jilin">Northeast China (Heilongjiang, Jilin)</h3>
+<p>An important maize and soybean region. Occasional late spring frost affects early growth stages, damaging seedlings and sometimes requiring replanting.</p>
+</section>
+<section id="southwest-plateau-yunnan-guizhou" class="level3">
+<h3 class="anchored" data-anchor-id="southwest-plateau-yunnan-guizhou">Southwest plateau (Yunnan, Guizhou)</h3>
+<p>Complex terrain creates localised frost-prone environments. Crops such as potato and tobacco are affected, with strong spatial variability driven by elevation and cold-air pooling.</p>
+<hr>
+</section>
+</section>
+<section id="impact-characteristics" class="level2">
+<h2 class="anchored" data-anchor-id="impact-characteristics">Impact characteristics</h2>
+<p>Late spring frost impacts in China are characterised by:</p>
 <ul>
-<li>validating frost detection methods</li>
-<li>comparing modelling approaches</li>
-<li>benchmarking climate-based risk metrics</li>
+<li><strong>High phenological sensitivity</strong>: damage occurs during flowering or early reproductive stages<br>
+</li>
+<li><strong>Short duration but high intensity</strong>: often 1–3 nights below critical thresholds<br>
+</li>
+<li><strong>Strong regional contrasts</strong>: from broadacre impacts in northern plains to localised frost pockets in complex terrain<br>
+</li>
+<li><strong>Significant economic effects</strong>: particularly for high-value fruit systems</li>
 </ul>
-<p>This repository aims to fill that gap by providing a <strong>transparent, reproducible benchmark dataset</strong>.</p>
+<hr>
 </section>
-<section id="contribution" class="level2">
-<h2 class="anchored" data-anchor-id="contribution">Contribution</h2>
-<p>Contributions are welcome.</p>
-<p>You can: - add new events following the <a href="./doc/protocol.html">data collection protocol</a> - improve metadata - refine spatial/temporal definitions</p>
-<p>Please ensure that all new entries: - are supported by a credible source - follow the existing schema</p>
-</section>
-<section id="citation" class="level2">
-<h2 class="anchored" data-anchor-id="citation">Citation</h2>
-<p>If you use this dataset, please cite:</p>
-<blockquote class="blockquote">
-<p><em>Global Frost Events Benchmark Dataset</em> (GitHub repository)<br>
-(DOI to be added upon formal release)</p>
-</blockquote>
-</section>
-<section id="license" class="level2">
-<h2 class="anchored" data-anchor-id="license">License</h2>
-<p>This project is licensed under the MIT License.</p>
-</section>
-<section id="status" class="level2">
-<h2 class="anchored" data-anchor-id="status">Status</h2>
-<p>🚧 Under active development as part of ongoing research on global frost risk and detection methods.</p>
-<p>This dataset is currently used to support: - algorithm development - model validation - methodological research</p>
-<p>It may be formally released as a standalone dataset paper in the future.</p>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>Late spring frost represents a critical constraint on agricultural production in China, with impacts concentrated in the Loess Plateau fruit systems, the North China Plain wheat belt, and orchard regions in northern China, alongside additional risks in the northeast and southwest. These events provide valuable benchmark cases for evaluating frost detection and impact models across diverse agro-climatic conditions.</p>
 
 
 </section>

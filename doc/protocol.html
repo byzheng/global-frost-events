@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Global Frost Events Benchmark Dataset – GFEBD</title>
+<title>Global Frost Events Dataset: Data Collection Protocol – GFEBD</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,23 +26,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-bba5ebae505b5c03f3f0d8040a416a6b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-bba5ebae505b5c03f3f0d8040a416a6b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">GFEBD</span>
     </a>
   </div>
@@ -93,15 +93,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./events/index.html"> 
+    <a class="nav-link" href="../events/index.html"> 
 <span class="menu-text">Events</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -120,11 +120,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#motivation" id="toc-motivation" class="nav-link active" data-scroll-target="#motivation">Motivation</a></li>
-  <li><a href="#contribution" id="toc-contribution" class="nav-link" data-scroll-target="#contribution">Contribution</a></li>
-  <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
-  <li><a href="#license" id="toc-license" class="nav-link" data-scroll-target="#license">License</a></li>
-  <li><a href="#status" id="toc-status" class="nav-link" data-scroll-target="#status">Status</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#core-principles" id="toc-core-principles" class="nav-link" data-scroll-target="#core-principles">Core principles</a>
+  <ul class="collapse">
+  <li><a href="#event-based-approach" id="toc-event-based-approach" class="nav-link" data-scroll-target="#event-based-approach">Event-based approach</a></li>
+  <li><a href="#evidence-driven-geometry" id="toc-evidence-driven-geometry" class="nav-link" data-scroll-target="#evidence-driven-geometry">Evidence-driven geometry</a></li>
+  <li><a href="#separation-of-data-and-interpretation" id="toc-separation-of-data-and-interpretation" class="nav-link" data-scroll-target="#separation-of-data-and-interpretation">Separation of data and interpretation</a></li>
+  </ul></li>
+  <li><a href="#event-identification-workflow" id="toc-event-identification-workflow" class="nav-link" data-scroll-target="#event-identification-workflow">Event identification workflow</a>
+  <ul class="collapse">
+  <li><a href="#step-1-identify-candidate-events" id="toc-step-1-identify-candidate-events" class="nav-link" data-scroll-target="#step-1-identify-candidate-events">Step 1: Identify candidate events</a></li>
+  <li><a href="#step-2-confirm-event-validity" id="toc-step-2-confirm-event-validity" class="nav-link" data-scroll-target="#step-2-confirm-event-validity">Step 2: Confirm event validity</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -133,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Global Frost Events Benchmark Dataset</h1>
+<h1 class="title">Global Frost Events Dataset: Data Collection Protocol</h1>
 </div>
 
 
@@ -150,48 +157,50 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This repository contains a curated collection of documented frost events across the globe.<br>
-The primary purpose of this dataset is to support the <strong>development, evaluation, and validation of frost detection algorithms</strong>, particularly those based on climate reanalysis data (e.g.&nbsp;ERA5) and crop models.</p>
-<p>This dataset is <strong>not intended to be exhaustive</strong>. Instead, it provides a set of <strong>high-confidence, representative frost events</strong> across different regions, climates, and cropping systems.</p>
-<blockquote class="blockquote">
-<p><strong>See <a href="./events/index.html">Events</a> for a list of included events and their characteristics.</strong></p>
-</blockquote>
-<section id="motivation" class="level2">
-<h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
-<p>Frost remains a major constraint to agricultural production worldwide.<br>
-However, there is currently <strong>no standardised global dataset of frost events</strong> available for:</p>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>This protocol defines the principles and procedures for identifying, collecting, and structuring frost events in the Global Frost Events dataset.</p>
+<p>The dataset aims to compile a curated set of <strong>source-confirmed frost events</strong> impacting agriculture, designed for: - validation of frost detection algorithms - comparative analysis across regions and crops - reproducible research</p>
+</section>
+<section id="core-principles" class="level2">
+<h2 class="anchored" data-anchor-id="core-principles">Core principles</h2>
+<section id="event-based-approach" class="level3">
+<h3 class="anchored" data-anchor-id="event-based-approach">Event-based approach</h3>
+<p>Each dataset entry represents a <strong>real-world frost event</strong>, defined by: - documented occurrence - identifiable time window - confirmed agricultural impact</p>
+<p>Events are not based on climatology or model output, but on <strong>explicit evidence from sources</strong>.</p>
+</section>
+<section id="evidence-driven-geometry" class="level3">
+<h3 class="anchored" data-anchor-id="evidence-driven-geometry">Evidence-driven geometry</h3>
+<p>Spatial information must be derived from <strong>source-confirmed observations</strong>, not inferred regions.</p>
+<p>Each event contains:</p>
 <ul>
-<li>validating frost detection methods</li>
-<li>comparing modelling approaches</li>
-<li>benchmarking climate-based risk metrics</li>
+<li><code>geometry</code>: a <strong>representative reference location</strong></li>
+<li><code>observations</code>: a collection of <strong>source-backed spatial features</strong></li>
 </ul>
-<p>This repository aims to fill that gap by providing a <strong>transparent, reproducible benchmark dataset</strong>.</p>
+<p>This ensures a clear distinction between: - <strong>observed locations</strong> (evidence) - <strong>derived geometries</strong> (used for analysis)</p>
 </section>
-<section id="contribution" class="level2">
-<h2 class="anchored" data-anchor-id="contribution">Contribution</h2>
-<p>Contributions are welcome.</p>
-<p>You can: - add new events following the <a href="./doc/protocol.html">data collection protocol</a> - improve metadata - refine spatial/temporal definitions</p>
-<p>Please ensure that all new entries: - are supported by a credible source - follow the existing schema</p>
+<section id="separation-of-data-and-interpretation" class="level3">
+<h3 class="anchored" data-anchor-id="separation-of-data-and-interpretation">Separation of data and interpretation</h3>
+<ul>
+<li><code>meta.json</code> stores structured, source-backed data</li>
+<li><code>event.qmd</code> provides narrative interpretation and context</li>
+</ul>
+<p>No interpretation should be embedded in structured fields unless explicitly supported by sources.</p>
 </section>
-<section id="citation" class="level2">
-<h2 class="anchored" data-anchor-id="citation">Citation</h2>
-<p>If you use this dataset, please cite:</p>
-<blockquote class="blockquote">
-<p><em>Global Frost Events Benchmark Dataset</em> (GitHub repository)<br>
-(DOI to be added upon formal release)</p>
-</blockquote>
 </section>
-<section id="license" class="level2">
-<h2 class="anchored" data-anchor-id="license">License</h2>
-<p>This project is licensed under the MIT License.</p>
+<section id="event-identification-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="event-identification-workflow">Event identification workflow</h2>
+<section id="step-1-identify-candidate-events" class="level3">
+<h3 class="anchored" data-anchor-id="step-1-identify-candidate-events">Step 1: Identify candidate events</h3>
+<p>Events should be identified from: - peer-reviewed publications - government or institutional reports - industry reports - credible news sources</p>
+<p>Priority is given to: - well-documented events - events with clear agricultural impacts - events with identifiable timing and location</p>
 </section>
-<section id="status" class="level2">
-<h2 class="anchored" data-anchor-id="status">Status</h2>
-<p>🚧 Under active development as part of ongoing research on global frost risk and detection methods.</p>
-<p>This dataset is currently used to support: - algorithm development - model validation - methodological research</p>
-<p>It may be formally released as a standalone dataset paper in the future.</p>
+<section id="step-2-confirm-event-validity" class="level3">
+<h3 class="anchored" data-anchor-id="step-2-confirm-event-validity">Step 2: Confirm event validity</h3>
+<p>An event is included only if: - frost occurrence is explicitly reported - agricultural impact is described or implied</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

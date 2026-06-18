@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Global Frost Events Benchmark Dataset – GFEBD</title>
+<title>South Australia Spring Frosts (2024) – GFEBD</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,23 +26,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-bba5ebae505b5c03f3f0d8040a416a6b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-bba5ebae505b5c03f3f0d8040a416a6b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">GFEBD</span>
     </a>
   </div>
@@ -93,15 +93,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./events/index.html"> 
+    <a class="nav-link" href="../../../events/index.html"> 
 <span class="menu-text">Events</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -120,11 +120,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#motivation" id="toc-motivation" class="nav-link active" data-scroll-target="#motivation">Motivation</a></li>
-  <li><a href="#contribution" id="toc-contribution" class="nav-link" data-scroll-target="#contribution">Contribution</a></li>
-  <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
-  <li><a href="#license" id="toc-license" class="nav-link" data-scroll-target="#license">License</a></li>
-  <li><a href="#status" id="toc-status" class="nav-link" data-scroll-target="#status">Status</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#meteorological-context" id="toc-meteorological-context" class="nav-link" data-scroll-target="#meteorological-context">Meteorological context</a></li>
+  <li><a href="#spatial-definition" id="toc-spatial-definition" class="nav-link" data-scroll-target="#spatial-definition">Spatial definition</a></li>
+  <li><a href="#impact" id="toc-impact" class="nav-link" data-scroll-target="#impact">Impact</a></li>
+  <li><a href="#notes-and-uncertainty" id="toc-notes-and-uncertainty" class="nav-link" data-scroll-target="#notes-and-uncertainty">Notes and uncertainty</a></li>
   </ul>
 </nav>
     </div>
@@ -133,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Global Frost Events Benchmark Dataset</h1>
+<h1 class="title">South Australia Spring Frosts (2024)</h1>
 </div>
 
 
@@ -150,46 +150,30 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This repository contains a curated collection of documented frost events across the globe.<br>
-The primary purpose of this dataset is to support the <strong>development, evaluation, and validation of frost detection algorithms</strong>, particularly those based on climate reanalysis data (e.g.&nbsp;ERA5) and crop models.</p>
-<p>This dataset is <strong>not intended to be exhaustive</strong>. Instead, it provides a set of <strong>high-confidence, representative frost events</strong> across different regions, climates, and cropping systems.</p>
-<blockquote class="blockquote">
-<p><strong>See <a href="./events/index.html">Events</a> for a list of included events and their characteristics.</strong></p>
-</blockquote>
-<section id="motivation" class="level2">
-<h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
-<p>Frost remains a major constraint to agricultural production worldwide.<br>
-However, there is currently <strong>no standardised global dataset of frost events</strong> available for:</p>
-<ul>
-<li>validating frost detection methods</li>
-<li>comparing modelling approaches</li>
-<li>benchmarking climate-based risk metrics</li>
-</ul>
-<p>This repository aims to fill that gap by providing a <strong>transparent, reproducible benchmark dataset</strong>.</p>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>Widespread frost events occurred across major grain-producing regions of South Australia during September and early October 2024. The most severe impacts were reported on the Eyre Peninsula and in the Mid North.</p>
 </section>
-<section id="contribution" class="level2">
-<h2 class="anchored" data-anchor-id="contribution">Contribution</h2>
-<p>Contributions are welcome.</p>
-<p>You can: - add new events following the <a href="./doc/protocol.html">data collection protocol</a> - improve metadata - refine spatial/temporal definitions</p>
-<p>Please ensure that all new entries: - are supported by a credible source - follow the existing schema</p>
+<section id="meteorological-context" class="level2">
+<h2 class="anchored" data-anchor-id="meteorological-context">Meteorological context</h2>
+<p>The frost events developed during a very dry growing season, with many regions experiencing well below average rainfall. Multiple frost events occurred over a short period, including at least five days below 0°C in mid-September, with minimum temperatures reported as low as −6.5°C.</p>
+<p>The extended duration and frequency of these events contributed to significant agricultural impact.</p>
 </section>
-<section id="citation" class="level2">
-<h2 class="anchored" data-anchor-id="citation">Citation</h2>
-<p>If you use this dataset, please cite:</p>
-<blockquote class="blockquote">
-<p><em>Global Frost Events Benchmark Dataset</em> (GitHub repository)<br>
-(DOI to be added upon formal release)</p>
-</blockquote>
+<section id="spatial-definition" class="level2">
+<h2 class="anchored" data-anchor-id="spatial-definition">Spatial definition</h2>
+<p>This event is defined over major cropping regions of South Australia, particularly the Eyre Peninsula and Mid North, where the most severe impacts were reported.</p>
+<p>A bounding box is used to represent the affected region for analysis with gridded datasets such as ERA5.</p>
 </section>
-<section id="license" class="level2">
-<h2 class="anchored" data-anchor-id="license">License</h2>
-<p>This project is licensed under the MIT License.</p>
+<section id="impact" class="level2">
+<h2 class="anchored" data-anchor-id="impact">Impact</h2>
+<p>The frost events affected a wide range of crops, including wheat, lentils, barley, and canola. Many crops were at flowering or early grain development stages when frost occurred, increasing sensitivity.</p>
+<p>Reports indicate substantial yield losses, with some regions experiencing severe damage requiring crops to be cut for hay or abandoned.</p>
 </section>
-<section id="status" class="level2">
-<h2 class="anchored" data-anchor-id="status">Status</h2>
-<p>🚧 Under active development as part of ongoing research on global frost risk and detection methods.</p>
-<p>This dataset is currently used to support: - algorithm development - model validation - methodological research</p>
-<p>It may be formally released as a standalone dataset paper in the future.</p>
+<section id="notes-and-uncertainty" class="level2">
+<h2 class="anchored" data-anchor-id="notes-and-uncertainty">Notes and uncertainty</h2>
+<p>The spatial boundary is approximate and intended for regional-scale analysis.<br>
+Localised frost severity likely varied depending on topography and soil type.</p>
+<p>This event represents a compound stress scenario, with frost occurring alongside drought conditions.</p>
 
 
 </section>
