@@ -1,0 +1,54 @@
+{
+    "event_id": "china_2015_shangqiu_wheat_frost",
+    "event_name": "Shangqiu Winter Wheat Frost",
+    "country": {
+        "name": "China",
+        "iso2": "CN"
+    },
+    "region": {
+        "name": "Shangqiu",
+        "type": "city_region"
+    },
+    "observations": {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": null,
+                "properties": {
+                    "location_name": "Shangqiu",
+                    "observation_type": "field_survey_and_meteorological_observation",
+                    "description": "A combined frost event occurred on 8 April 2015 during stem elongation of winter wheat.",
+                    "source_id": [
+                        "wu_predicting_2022"
+                    ],
+                    "precision": "city_level",
+                    "confidence": "high",
+                    "admin_units": {
+                        "country": "China",
+                        "province": "Henan",
+                        "city": "Shangqiu"
+                    },
+                    "reported_grass_temp_c": -5.9,
+                    "station_with_lowest_temperature": "Suixian",
+                    "reported_frost_area_pct": 66.79,
+                    "crop_stage": "stem_elongation",
+                    "crop": "winter_wheat",
+                    "reported_percent_yield_difference_pct": {
+                        "mean": 11.2,
+                        "max": 23.4
+                    }
+                }
+            }
+        ]
+    },
+    "time": {
+        "start_date": "2015-04-08",
+        "end_date": "2015-04-08"
+    },
+    "classification": {
+        "hemisphere": "Northern",
+        "season": "Spring",
+        "event_type": "spring_frost"
+    }
+}

@@ -1,0 +1,286 @@
+{
+    "event_id": "china_2018_north_china_wheat_spring_frost",
+    "event_name": "North China Winter Wheat Spring Frost",
+    "country": {
+        "name": "China",
+        "iso2": "CN"
+    },
+    "region": {
+        "name": "North China winter wheat region",
+        "type": "agro_climatic_region",
+        "description": "Winter wheat growing areas of North China, with major reported impacts in Shandong, Henan and southern Hebei, and broader severe cooling also reported in Henan, Shanxi, Shaanxi, Shandong and Anhui."
+    },
+    "observations": {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": null,
+                "properties": {
+                    "location_name": "North China wheat belt",
+                    "observation_type": "regional_frost_event_report",
+                    "description": "From 3-7 April 2018, a spring frost event occurred in North China with a rapid temperature drop of more than 14 °C, causing severe frost damage to winter wheat. Severely damaged areas were mainly located at the junction of Hebei, Henan and Shandong provinces, especially western Shandong Province.",
+                    "source_id": [
+                        "wang_response_2020"
+                    ],
+                    "source_reference_ids": [
+                        "turn1search3"
+                    ],
+                    "precision": "regional",
+                    "confidence": "high",
+                    "admin_units": {
+                        "country": "China",
+                        "province": [
+                            "Hebei",
+                            "Henan",
+                            "Shandong"
+                        ],
+                        "city": null
+                    },
+                    "reported_min_temp_c": null,
+                    "reported_temperature_drop_c": 14.0,
+                    "reported_ground_temp_c": null,
+                    "reported_grass_temp_c": null,
+                    "crop_stage": "jointing-heading",
+                    "crop": "winter_wheat",
+                    "impact": "Severe frost damage to winter wheat, with strongest mapped damage near the Hebei-Henan-Shandong junction and especially in western Shandong.",
+                    "validation_evidence": [
+                        "regional newspaper reports",
+                        "county-level wheat yield data",
+                        "remote sensing spring frost damage index"
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": null,
+                "properties": {
+                    "location_name": "Shandong Province",
+                    "observation_type": "crop_damage_report",
+                    "description": "From 3-7 April 2018, Shandong Province experienced spring frost damage to winter wheat. The event caused a sharp temperature decline beginning on 3 April, with the lowest daily minimum temperature on 7 April. Winter wheat growth began to be inhibited on 3 April and the impact persisted until 13 April.",
+                    "source_id": [
+                        "chen_monitoring_2023"
+                    ],
+                    "source_reference_ids": [
+                        "turn1search5"
+                    ],
+                    "precision": "province_level",
+                    "confidence": "high",
+                    "admin_units": {
+                        "country": "China",
+                        "province": "Shandong",
+                        "city": null
+                    },
+                    "reported_min_temp_c": -1.48,
+                    "reported_temperature_drop_c": 17.93,
+                    "reported_ground_temp_c": null,
+                    "reported_grass_temp_c": null,
+                    "crop_stage": "late elongation-booting",
+                    "crop": "winter_wheat",
+                    "reported_affected_area_mu": {
+                        "official_statistics": 489000,
+                        "remote_sensing_estimate": 545000
+                    },
+                    "reported_accuracy_rate_pct": 89.72,
+                    "impact": "Winter wheat spring frost damage, with affected area reported by official statistics and remote sensing assessment. The event reduced winter wheat yield in affected western Shandong areas.",
+                    "validation_evidence": [
+                        "Ministry of Agriculture and Rural Affairs disaster statistics",
+                        "meteorological records",
+                        "county-level yield data",
+                        "news media reports",
+                        "remote sensing monitoring"
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": null,
+                "properties": {
+                    "location_name": "Western Shandong",
+                    "observation_type": "crop_damage_report",
+                    "description": "Western Shandong was the main damage hotspot during the 3-7 April 2018 spring frost. The daily minimum temperature in western Shandong dropped sharply from 3-7 April, reaching -1.48 °C on 7 April. Severe damage was mainly reported in Dezhou, Heze, Liaocheng, Jinan, Tai'an, Jining and Zaozhuang.",
+                    "source_id": [
+                        "chen_monitoring_2023",
+                        "wang_response_2020"
+                    ],
+                    "source_reference_ids": [
+                        "turn1search5",
+                        "turn1search3"
+                    ],
+                    "precision": "sub_province_region",
+                    "confidence": "high",
+                    "admin_units": {
+                        "country": "China",
+                        "province": "Shandong",
+                        "city": [
+                            "Dezhou",
+                            "Heze",
+                            "Liaocheng",
+                            "Jinan",
+                            "Tai'an",
+                            "Jining",
+                            "Zaozhuang"
+                        ]
+                    },
+                    "reported_min_temp_c": -1.48,
+                    "reported_temperature_drop_c": 17.93,
+                    "reported_ground_temp_c": null,
+                    "reported_grass_temp_c": null,
+                    "crop_stage": "late elongation-booting",
+                    "crop": "winter_wheat",
+                    "reported_yield_reduction_pct": {
+                        "Jining": 12.02,
+                        "Zaozhuang": 11.71,
+                        "Dezhou": 11.33,
+                        "Heze": 7.12,
+                        "Liaocheng": 7.11,
+                        "Jinan": 5.61,
+                        "Tai'an": 5.27
+                    },
+                    "impact": "Yield reduction in winter wheat was mainly concentrated in western Shandong, with reported city-level yield reduction rates ranging from 5.27% to 12.02%.",
+                    "validation_evidence": [
+                        "county-level yield reduction",
+                        "minimum temperature distribution",
+                        "remote sensing damage map",
+                        "news reports"
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": null,
+                "properties": {
+                    "location_name": "Cao County and Liaocheng City",
+                    "observation_type": "news_reported_crop_damage",
+                    "description": "News reports from Cao County and Liaocheng City described winter wheat being affected by strong cooling from elongation stage to booting stage, with decreased spike grain and significant yield reduction during the April 2018 spring frost disaster.",
+                    "source_id": [
+                        "chen_monitoring_2023"
+                    ],
+                    "source_reference_ids": [
+                        "turn1search5"
+                    ],
+                    "precision": "county_city_level",
+                    "confidence": "medium",
+                    "admin_units": {
+                        "country": "China",
+                        "province": "Shandong",
+                        "city": [
+                            "Liaocheng"
+                        ],
+                        "county": [
+                            "Cao County"
+                        ]
+                    },
+                    "reported_min_temp_c": null,
+                    "reported_temperature_drop_c": null,
+                    "reported_ground_temp_c": null,
+                    "reported_grass_temp_c": null,
+                    "crop_stage": "elongation-booting",
+                    "crop": "winter_wheat",
+                    "impact": "News reports described reduced spike grain and significant yield reduction in winter wheat.",
+                    "validation_evidence": [
+                        "local news reports"
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": null,
+                "properties": {
+                    "location_name": "Shangqiu",
+                    "observation_type": "field_survey_and_meteorological_observation",
+                    "description": "On 7 April 2018, a combined frost event was identified in the Shangqiu area during winter wheat stem elongation. The lowest grass temperature was -8.2 °C at Minquan, and the frost area reached 89.90% of the study area. The 2018 field survey reported the highest average percent yield difference among 2015-2018, at 18.3%.",
+                    "source_id": [
+                        "wu_predicting_2022",
+                        "wang_response_2020"
+                    ],
+                    "source_reference_ids": [
+                        "turn1search20",
+                        "turn1search3"
+                    ],
+                    "precision": "city_level",
+                    "confidence": "high",
+                    "admin_units": {
+                        "country": "China",
+                        "province": "Henan",
+                        "city": "Shangqiu",
+                        "station_with_lowest_grass_temperature": "Minquan"
+                    },
+                    "reported_min_temp_c": null,
+                    "reported_grass_temp_c": -8.2,
+                    "reported_frost_area_pct": 89.9,
+                    "reported_percent_yield_difference_pct": {
+                        "mean_2018": 18.3,
+                        "max_2018": 51.0
+                    },
+                    "crop_stage": "stem elongation",
+                    "crop": "winter_wheat",
+                    "impact": "Field surveys showed severe frost damage in 2018, with significant reduction in winter wheat grain yield and grain number per ear. The 7 April event had the largest reported frost area in the Shangqiu 2015-2019 event series.",
+                    "validation_evidence": [
+                        "field surveys",
+                        "hourly grass temperature observations",
+                        "yield component measurements",
+                        "percent yield difference estimates"
+                    ]
+                }
+            }
+        ]
+    },
+    "time": {
+        "start_date": "2018-04-03",
+        "end_date": "2018-04-07"
+    },
+    "classification": {
+        "hemisphere": "Northern",
+        "season": "Spring",
+        "event_type": "late_spring_frost",
+        "frost_category": "spring_frost_cold_wave"
+    },
+    "climate_characteristics": {
+        "reported_min_temp_c": -1.48,
+        "reported_temperature_drop_c": {
+            "north_china_reported_minimum": 14.0,
+            "western_shandong_reported": 17.93
+        },
+        "reported_ground_temp_c": -4.5,
+        "reported_grass_temp_c": {
+            "regional_reported_minimum": -8.5,
+            "shangqiu_minquan_2018_04_07": -8.2
+        },
+        "duration_notes": "The cold-wave and frost event affected winter wheat areas of North China from 3-7 April 2018. In western Shandong, winter wheat growth inhibition began on 3 April and persisted until 13 April.",
+        "notes": "The event was associated with severe cooling during the late elongation to booting or jointing-heading period of winter wheat. Papers report a rapid temperature decline, low ground and grass temperatures, crop physiological injury, and measurable yield losses."
+    },
+    "impact": {
+        "crop_types": [
+            "winter_wheat"
+        ],
+        "severity": "severe",
+        "description": "The event caused spring frost damage to winter wheat across parts of the North China wheat belt. Reported impacts included inhibited crop growth, damage to young ears and spikelets, reduced pollen development, reduced grain number per ear, reduced grain yield, and large affected areas in western Shandong and Shangqiu.",
+        "reported_affected_area_mu": {
+            "shandong_official_statistics": 489000,
+            "shandong_remote_sensing_estimate": 545000
+        },
+        "reported_yield_reduction_pct": {
+            "western_shandong_city_range": "5.27-12.02",
+            "shangqiu_mean_percent_yield_difference_2018": 18.3,
+            "shangqiu_max_percent_yield_difference_2018": 51.0
+        }
+    },
+    "source_merge": {
+        "merged_from_source_ids": [
+            "chen_monitoring_2023",
+            "wang_response_2020",
+            "wu_predicting_2022"
+        ],
+        "merge_rationale": "All three sources refer to the same early April 2018 North China spring frost/cold-wave event affecting winter wheat. Wang et al. describe the regional North China event from 3-7 April 2018; Chen et al. provide detailed Shandong damage statistics and validation; Wu et al. provide field-survey and grass-temperature evidence for the 7 April 2018 component of the same cold outbreak in Shangqiu, Henan.",
+        "source_reference_ids": [
+            "turn1search5",
+            "turn1search3",
+            "turn1search20"
+        ]
+    },
+    "confidence": {
+        "level": "high",
+        "notes": "This is a high-confidence merged event because the same 3-7 April 2018 spring frost event is explicitly reported in multiple papers and supported by meteorological observations, official disaster statistics, county yield data, newspaper reports, remote sensing monitoring, and field surveys. Geometry is left as null because the retrieved paper text provides regional coordinates for study areas but not exact event polygons or point coordinates for each damage observation."
+    }
+}
