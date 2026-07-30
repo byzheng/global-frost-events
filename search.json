@@ -1,47 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Global Frost Events Benchmark Dataset",
-    "section": "",
-    "text": "This repository contains a curated collection of documented frost events across the globe.\nThe primary purpose of this dataset is to support the development, evaluation, and validation of frost detection algorithms, particularly those based on climate reanalysis data (e.g. ERA5) and crop models.\nThis dataset is not intended to be exhaustive. Instead, it provides a set of high-confidence, representative frost events across different regions, climates, and cropping systems."
-  },
-  {
-    "objectID": "index.html#motivation",
-    "href": "index.html#motivation",
-    "title": "Global Frost Events Benchmark Dataset",
-    "section": "Motivation",
-    "text": "Motivation\nFrost remains a major constraint to agricultural production worldwide.\nHowever, there is currently no standardised global dataset of frost events available for:\n\nvalidating frost detection methods\ncomparing modelling approaches\nbenchmarking climate-based risk metrics\n\nThis repository aims to fill that gap by providing a transparent, reproducible benchmark dataset."
-  },
-  {
-    "objectID": "index.html#contribution",
-    "href": "index.html#contribution",
-    "title": "Global Frost Events Benchmark Dataset",
-    "section": "Contribution",
-    "text": "Contribution\nContributions are welcome.\nYou can: - add new events following the data collection protocol - improve metadata - refine spatial/temporal definitions\nPlease ensure that all new entries: - are supported by a credible source - follow the existing schema"
-  },
-  {
-    "objectID": "index.html#citation",
-    "href": "index.html#citation",
-    "title": "Global Frost Events Benchmark Dataset",
-    "section": "Citation",
-    "text": "Citation\nIf you use this dataset, please cite:\n\nGlobal Frost Events Benchmark Dataset (GitHub repository)\n(DOI to be added upon formal release)"
-  },
-  {
-    "objectID": "index.html#license",
-    "href": "index.html#license",
-    "title": "Global Frost Events Benchmark Dataset",
-    "section": "License",
-    "text": "License\nThis project is licensed under the MIT License."
-  },
-  {
-    "objectID": "index.html#status",
-    "href": "index.html#status",
-    "title": "Global Frost Events Benchmark Dataset",
-    "section": "Status",
-    "text": "Status\n🚧 Under active development as part of ongoing research on global frost risk and detection methods.\nThis dataset is currently used to support: - algorithm development - model validation - methodological research\nIt may be formally released as a standalone dataset paper in the future."
-  },
-  {
     "objectID": "events/index.html",
     "href": "events/index.html",
     "title": "Events",
@@ -91,6 +49,48 @@
     "text": "Summary\nSpring frost is a widespread and recurrent hazard across southern Australia’s grain-producing regions. Its impacts are most severe when frost coincides with flowering, resulting in substantial yield and quality losses across wheat, barley, and canola systems. These conditions make Australia a key benchmark region for evaluating frost detection and impact models in broadacre agricultural systems."
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Global Frost Events Benchmark Dataset",
+    "section": "",
+    "text": "This repository contains a curated collection of documented frost events across the globe.\nThe primary purpose of this dataset is to support the development, evaluation, and validation of frost detection algorithms, particularly those based on climate reanalysis data (e.g. ERA5) and crop models.\nThis dataset is not intended to be exhaustive. Instead, it provides a set of high-confidence, representative frost events across different regions, climates, and cropping systems."
+  },
+  {
+    "objectID": "index.html#motivation",
+    "href": "index.html#motivation",
+    "title": "Global Frost Events Benchmark Dataset",
+    "section": "Motivation",
+    "text": "Motivation\nFrost remains a major constraint to agricultural production worldwide.\nHowever, there is currently no standardised global dataset of frost events available for:\n\nvalidating frost detection methods\ncomparing modelling approaches\nbenchmarking climate-based risk metrics\n\nThis repository aims to fill that gap by providing a transparent, reproducible benchmark dataset."
+  },
+  {
+    "objectID": "index.html#contribution",
+    "href": "index.html#contribution",
+    "title": "Global Frost Events Benchmark Dataset",
+    "section": "Contribution",
+    "text": "Contribution\nContributions are welcome.\nYou can: - add new events following the data collection protocol - improve metadata - refine spatial/temporal definitions\nPlease ensure that all new entries: - are supported by a credible source - follow the existing schema"
+  },
+  {
+    "objectID": "index.html#citation",
+    "href": "index.html#citation",
+    "title": "Global Frost Events Benchmark Dataset",
+    "section": "Citation",
+    "text": "Citation\nIf you use this dataset, please cite:\n\nGlobal Frost Events Benchmark Dataset (GitHub repository)\n(DOI to be added upon formal release)"
+  },
+  {
+    "objectID": "index.html#license",
+    "href": "index.html#license",
+    "title": "Global Frost Events Benchmark Dataset",
+    "section": "License",
+    "text": "License\nThis project is licensed under the MIT License."
+  },
+  {
+    "objectID": "index.html#status",
+    "href": "index.html#status",
+    "title": "Global Frost Events Benchmark Dataset",
+    "section": "Status",
+    "text": "Status\n🚧 Under active development as part of ongoing research on global frost risk and detection methods.\nThis dataset is currently used to support: - algorithm development - model validation - methodological research\nIt may be formally released as a standalone dataset paper in the future."
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -98,39 +98,32 @@
     "text": "About this site"
   },
   {
-    "objectID": "events/china/index.html",
-    "href": "events/china/index.html",
-    "title": "Late Spring Frost Impacts in China",
+    "objectID": "doc/protocol.html",
+    "href": "doc/protocol.html",
+    "title": "Global Frost Events Dataset: Data Collection Protocol",
     "section": "",
-    "text": "Late spring frost (“倒春寒” or “晚霜冻”) is a major agricultural hazard in China, occurring after crop re-growth and coinciding with highly sensitive developmental stages. These events are typically short in duration but can cause disproportionate reductions in yield and quality across both grain and horticultural systems."
+    "text": "This protocol defines the principles and procedures for identifying, collecting, and structuring frost events in the Global Frost Events dataset.\nThe dataset aims to compile a curated set of source-confirmed frost events impacting agriculture, designed for: - validation of frost detection algorithms - comparative analysis across regions and crops - reproducible research"
   },
   {
-    "objectID": "events/china/index.html#overview",
-    "href": "events/china/index.html#overview",
-    "title": "Late Spring Frost Impacts in China",
+    "objectID": "doc/protocol.html#overview",
+    "href": "doc/protocol.html#overview",
+    "title": "Global Frost Events Dataset: Data Collection Protocol",
     "section": "",
-    "text": "Late spring frost (“倒春寒” or “晚霜冻”) is a major agricultural hazard in China, occurring after crop re-growth and coinciding with highly sensitive developmental stages. These events are typically short in duration but can cause disproportionate reductions in yield and quality across both grain and horticultural systems."
+    "text": "This protocol defines the principles and procedures for identifying, collecting, and structuring frost events in the Global Frost Events dataset.\nThe dataset aims to compile a curated set of source-confirmed frost events impacting agriculture, designed for: - validation of frost detection algorithms - comparative analysis across regions and crops - reproducible research"
   },
   {
-    "objectID": "events/china/index.html#major-impact-regions",
-    "href": "events/china/index.html#major-impact-regions",
-    "title": "Late Spring Frost Impacts in China",
-    "section": "Major impact regions",
-    "text": "Major impact regions\n\nLoess Plateau (Shaanxi, Gansu)\nA key fruit-producing region, particularly for apple. Frost during the flowering period frequently causes severe damage to blossoms, leading to large yield losses and strong interannual variability in production.\n\n\nNorth China Plain (Hebei, Henan, Shandong)\nChina’s core winter wheat belt. Late frost events during jointing or heading stages reduce grain number and weight, with impacts occurring at regional scale due to the extensive cropping area.\n\n\nNorthern orchard regions (Bohai Rim)\nIncludes Hebei, Shandong, and Liaoning. Fruit trees such as apple, pear, and peach are highly vulnerable during bloom, with frost leading to failure of fruit set and significant economic loss.\n\n\nNortheast China (Heilongjiang, Jilin)\nAn important maize and soybean region. Occasional late spring frost affects early growth stages, damaging seedlings and sometimes requiring replanting.\n\n\nSouthwest plateau (Yunnan, Guizhou)\nComplex terrain creates localised frost-prone environments. Crops such as potato and tobacco are affected, with strong spatial variability driven by elevation and cold-air pooling."
+    "objectID": "doc/protocol.html#core-principles",
+    "href": "doc/protocol.html#core-principles",
+    "title": "Global Frost Events Dataset: Data Collection Protocol",
+    "section": "Core principles",
+    "text": "Core principles\n\nEvent-based approach\nEach dataset entry represents a real-world frost event, defined by: - documented occurrence - identifiable time window - confirmed agricultural impact\nEvents are not based on climatology or model output, but on explicit evidence from sources.\n\n\nEvidence-driven geometry\nSpatial information must be derived from source-confirmed observations, not inferred regions.\nEach event contains:\n\ngeometry: a representative reference location\nobservations: a collection of source-backed spatial features\n\nThis ensures a clear distinction between: - observed locations (evidence) - derived geometries (used for analysis)\n\n\nSeparation of data and interpretation\n\nmeta.json stores structured, source-backed data\nevent.qmd provides narrative interpretation and context\n\nNo interpretation should be embedded in structured fields unless explicitly supported by sources."
   },
   {
-    "objectID": "events/china/index.html#impact-characteristics",
-    "href": "events/china/index.html#impact-characteristics",
-    "title": "Late Spring Frost Impacts in China",
-    "section": "Impact characteristics",
-    "text": "Impact characteristics\nLate spring frost impacts in China are characterised by:\n\nHigh phenological sensitivity: damage occurs during flowering or early reproductive stages\n\nShort duration but high intensity: often 1–3 nights below critical thresholds\n\nStrong regional contrasts: from broadacre impacts in northern plains to localised frost pockets in complex terrain\n\nSignificant economic effects: particularly for high-value fruit systems"
-  },
-  {
-    "objectID": "events/china/index.html#summary",
-    "href": "events/china/index.html#summary",
-    "title": "Late Spring Frost Impacts in China",
-    "section": "Summary",
-    "text": "Summary\nLate spring frost represents a critical constraint on agricultural production in China, with impacts concentrated in the Loess Plateau fruit systems, the North China Plain wheat belt, and orchard regions in northern China, alongside additional risks in the northeast and southwest. These events provide valuable benchmark cases for evaluating frost detection and impact models across diverse agro-climatic conditions."
+    "objectID": "doc/protocol.html#event-identification-workflow",
+    "href": "doc/protocol.html#event-identification-workflow",
+    "title": "Global Frost Events Dataset: Data Collection Protocol",
+    "section": "Event identification workflow",
+    "text": "Event identification workflow\n\nStep 1: Identify candidate events\nEvents should be identified from: - peer-reviewed publications - government or institutional reports - industry reports - credible news sources\nPriority is given to: - well-documented events - events with clear agricultural impacts - events with identifiable timing and location\n\n\nStep 2: Confirm event validity\nAn event is included only if: - frost occurrence is explicitly reported - agricultural impact is described or implied"
   },
   {
     "objectID": "events/australia/australia_2024_sa_spring_frost/event.html",
@@ -175,31 +168,38 @@
     "text": "Notes and uncertainty\nThe spatial boundary is approximate and intended for regional-scale analysis.\nLocalised frost severity likely varied depending on topography and soil type.\nThis event represents a compound stress scenario, with frost occurring alongside drought conditions."
   },
   {
-    "objectID": "doc/protocol.html",
-    "href": "doc/protocol.html",
-    "title": "Global Frost Events Dataset: Data Collection Protocol",
+    "objectID": "events/china/index.html",
+    "href": "events/china/index.html",
+    "title": "Late Spring Frost Impacts in China",
     "section": "",
-    "text": "This protocol defines the principles and procedures for identifying, collecting, and structuring frost events in the Global Frost Events dataset.\nThe dataset aims to compile a curated set of source-confirmed frost events impacting agriculture, designed for: - validation of frost detection algorithms - comparative analysis across regions and crops - reproducible research"
+    "text": "Late spring frost (“倒春寒” or “晚霜冻”) is a major agricultural hazard in China, occurring after crop re-growth and coinciding with highly sensitive developmental stages. These events are typically short in duration but can cause disproportionate reductions in yield and quality across both grain and horticultural systems."
   },
   {
-    "objectID": "doc/protocol.html#overview",
-    "href": "doc/protocol.html#overview",
-    "title": "Global Frost Events Dataset: Data Collection Protocol",
+    "objectID": "events/china/index.html#overview",
+    "href": "events/china/index.html#overview",
+    "title": "Late Spring Frost Impacts in China",
     "section": "",
-    "text": "This protocol defines the principles and procedures for identifying, collecting, and structuring frost events in the Global Frost Events dataset.\nThe dataset aims to compile a curated set of source-confirmed frost events impacting agriculture, designed for: - validation of frost detection algorithms - comparative analysis across regions and crops - reproducible research"
+    "text": "Late spring frost (“倒春寒” or “晚霜冻”) is a major agricultural hazard in China, occurring after crop re-growth and coinciding with highly sensitive developmental stages. These events are typically short in duration but can cause disproportionate reductions in yield and quality across both grain and horticultural systems."
   },
   {
-    "objectID": "doc/protocol.html#core-principles",
-    "href": "doc/protocol.html#core-principles",
-    "title": "Global Frost Events Dataset: Data Collection Protocol",
-    "section": "Core principles",
-    "text": "Core principles\n\nEvent-based approach\nEach dataset entry represents a real-world frost event, defined by: - documented occurrence - identifiable time window - confirmed agricultural impact\nEvents are not based on climatology or model output, but on explicit evidence from sources.\n\n\nEvidence-driven geometry\nSpatial information must be derived from source-confirmed observations, not inferred regions.\nEach event contains:\n\ngeometry: a representative reference location\nobservations: a collection of source-backed spatial features\n\nThis ensures a clear distinction between: - observed locations (evidence) - derived geometries (used for analysis)\n\n\nSeparation of data and interpretation\n\nmeta.json stores structured, source-backed data\nevent.qmd provides narrative interpretation and context\n\nNo interpretation should be embedded in structured fields unless explicitly supported by sources."
+    "objectID": "events/china/index.html#major-impact-regions",
+    "href": "events/china/index.html#major-impact-regions",
+    "title": "Late Spring Frost Impacts in China",
+    "section": "Major impact regions",
+    "text": "Major impact regions\n\nLoess Plateau (Shaanxi, Gansu)\nA key fruit-producing region, particularly for apple. Frost during the flowering period frequently causes severe damage to blossoms, leading to large yield losses and strong interannual variability in production.\n\n\nNorth China Plain (Hebei, Henan, Shandong)\nChina’s core winter wheat belt. Late frost events during jointing or heading stages reduce grain number and weight, with impacts occurring at regional scale due to the extensive cropping area.\n\n\nNorthern orchard regions (Bohai Rim)\nIncludes Hebei, Shandong, and Liaoning. Fruit trees such as apple, pear, and peach are highly vulnerable during bloom, with frost leading to failure of fruit set and significant economic loss.\n\n\nNortheast China (Heilongjiang, Jilin)\nAn important maize and soybean region. Occasional late spring frost affects early growth stages, damaging seedlings and sometimes requiring replanting.\n\n\nSouthwest plateau (Yunnan, Guizhou)\nComplex terrain creates localised frost-prone environments. Crops such as potato and tobacco are affected, with strong spatial variability driven by elevation and cold-air pooling."
   },
   {
-    "objectID": "doc/protocol.html#event-identification-workflow",
-    "href": "doc/protocol.html#event-identification-workflow",
-    "title": "Global Frost Events Dataset: Data Collection Protocol",
-    "section": "Event identification workflow",
-    "text": "Event identification workflow\n\nStep 1: Identify candidate events\nEvents should be identified from: - peer-reviewed publications - government or institutional reports - industry reports - credible news sources\nPriority is given to: - well-documented events - events with clear agricultural impacts - events with identifiable timing and location\n\n\nStep 2: Confirm event validity\nAn event is included only if: - frost occurrence is explicitly reported - agricultural impact is described or implied"
+    "objectID": "events/china/index.html#impact-characteristics",
+    "href": "events/china/index.html#impact-characteristics",
+    "title": "Late Spring Frost Impacts in China",
+    "section": "Impact characteristics",
+    "text": "Impact characteristics\nLate spring frost impacts in China are characterised by:\n\nHigh phenological sensitivity: damage occurs during flowering or early reproductive stages\n\nShort duration but high intensity: often 1–3 nights below critical thresholds\n\nStrong regional contrasts: from broadacre impacts in northern plains to localised frost pockets in complex terrain\n\nSignificant economic effects: particularly for high-value fruit systems"
+  },
+  {
+    "objectID": "events/china/index.html#summary",
+    "href": "events/china/index.html#summary",
+    "title": "Late Spring Frost Impacts in China",
+    "section": "Summary",
+    "text": "Summary\nLate spring frost represents a critical constraint on agricultural production in China, with impacts concentrated in the Loess Plateau fruit systems, the North China Plain wheat belt, and orchard regions in northern China, alongside additional risks in the northeast and southwest. These events provide valuable benchmark cases for evaluating frost detection and impact models across diverse agro-climatic conditions."
   }
 ]
